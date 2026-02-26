@@ -672,7 +672,7 @@ p {
   height: 45px;
   padding: 12px 52px !important;
 
-  background-color: #fff !important;
+  background-color: #eeeeee !important;
 }
 
 
@@ -805,7 +805,7 @@ p {
 }
 
 .info-card {
-  background: rgba(15, 45, 36, 0.85);
+  background: #fff;
   border-radius: 14px;
   padding: 28px;
   height: 100%;
@@ -819,13 +819,8 @@ p {
 
 .info-card p {
   margin: 0;
-  color: #cfd8d5;
+  color: #0e2a22;
   font-size: 14px;
-}
-
-.info-card:hover {
-  transform: translateY(-6px);
-  background: rgba(20, 65, 52, 0.95);
 }
 
 .know-more-btn {
@@ -1074,9 +1069,7 @@ p {
     font-size: 26px;
   }
 
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 
@@ -1151,7 +1144,7 @@ p {
 
 
 .contect-form {
-  background-color: #0e2a22;
+  background-color: #ffffff;
   margin: 0 50px;
   padding: 25px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -1160,10 +1153,11 @@ p {
 
 .contect-form h3 {
   position: relative;
-  background-color: #fff;
+  background-color: #0e2a22;
   font-size: 18px !important;
   padding: 5px;
   text-align: center;
+  color: #fff !important;
 }
 
 
@@ -1926,7 +1920,9 @@ p {
     margin: 0px;
   }
 
-
+.info-card {
+  padding: 13px !important;
+}
 
 
   .project_box .bg_high li {
@@ -1987,7 +1983,7 @@ p {
 
   .text_form {
     height: 45px;
-    background-color: #fff !important;
+    background-color: #f0f0f0 !important;
   }
 
 
